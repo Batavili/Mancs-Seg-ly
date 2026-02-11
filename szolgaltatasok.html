@@ -11,68 +11,90 @@
 </head>
 
 <body class="bg-light p-4">
-    <h1 class="bg-dark text-white p-3 rounded-4 mb-3">
-        Szolgáltatások
-    </h1>
+    <header>
+        <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Mancs Segely</a>
+            <div id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Főoldal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./layout.html">Layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paciensek.html">Paciensek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./szolgaltatasok.html">Szolgaltatasok</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <p class="mb-4 text-secondary px-3">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nulla, aliquam non reprehenderit ut, incidunt enim quam labore esse quia aut! Nisi blanditiis consequatur atque ipsam voluptatum modi culpa quam.
-
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit eum nesciunt dicta fuga velit aspernatur, fugiat explicabo ea. Architecto consectetur, non cumque et repellendus quam pariatur quisquam eos alias tempora.
-
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam pariatur officiis debitis consequatur at ab temporibus voluptate sed ratione deleniti magni consectetur in, voluptatibus, odio qui? Totam animi velit beatae?
-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, tempore corporis dicta neque quae quod architecto, quam blanditiis veniam iure qui. Praesentium libero veniam consectetur asperiores quae ipsa beatae voluptatum.
-    </p>
-
-    <span class="fs-2 text-secondary text-uppercase px-3">Árlista</span>
-
-    <div id="list" class="accordion px-3">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#col-1" 
-                aria-expanded="true" aria-controls="col-1">
-                    Oltás
-                </button>
-            </h2>
-
-            <div id="col-1" class="accordion-collapse collapse" data-bs-parent="#list">
-                <div class="accordion-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fugit, omnis dolor excepturi amet a provident voluptatem ab eum voluptas sunt, ipsum asperiores impedit dolorem nisi, laborum mollitia commodi expedita?
+    <main>
+        <h1 class="bg-dark text-white p-3 rounded-4 mb-3">
+            Szolgáltatások
+        </h1>
+        <p class="mb-4 text-secondary px-3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nulla, aliquam non reprehenderit ut, incidunt enim quam labore esse quia aut! Nisi blanditiis consequatur atque ipsam voluptatum modi culpa quam.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit eum nesciunt dicta fuga velit aspernatur, fugiat explicabo ea. Architecto consectetur, non cumque et repellendus quam pariatur quisquam eos alias tempora.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam pariatur officiis debitis consequatur at ab temporibus voluptate sed ratione deleniti magni consectetur in, voluptatibus, odio qui? Totam animi velit beatae?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, tempore corporis dicta neque quae quod architecto, quam blanditiis veniam iure qui. Praesentium libero veniam consectetur asperiores quae ipsa beatae voluptatum.
+        </p>
+        <span class="fs-2 text-secondary text-uppercase px-3">Árlista</span>
+        <div id="list" class="accordion px-3">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#col-1"
+                    aria-expanded="true" aria-controls="col-1">
+                        Oltás
+                    </button>
+                </h2>
+                <div id="col-1" class="accordion-collapse collapse" data-bs-parent="#list">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fugit, omnis dolor excepturi amet a provident voluptatem ab eum voluptas sunt, ipsum asperiores impedit dolorem nisi, laborum mollitia commodi expedita?
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#col-2"
+                    aria-expanded="true" aria-controls="col-2">
+                        Sebészet
+                    </button>
+                </h2>
+                <div id="col-2" class="accordion-collapse collapse" data-bs-parent="#list">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores aliquid aliquam nobis, fugiat quod labore placeat quae deserunt optio omnis accusamus, eligendi rem ipsa quaerat voluptas maxime laborum nostrum dignissimos!
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#col-3"
+                    aria-expanded="true" aria-controls="col-3">
+                        Szűrés
+                    </button>
+                </h2>
+                <div id="col-3" class="accordion-collapse collapse" data-bs-parent="#list">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto vero porro, iusto doloribus soluta nostrum eaque atque voluptatibus neque repudiandae at. Ducimus quisquam ex omnis repudiandae tempore, ad aliquid illo?
+                    </div>
                 </div>
             </div>
         </div>
+    </main>
 
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#col-2" 
-                aria-expanded="true" aria-controls="col-2">
-                    Sebészet
-                </button>
-            </h2>
-
-            <div id="col-2" class="accordion-collapse collapse" data-bs-parent="#list">
-                <div class="accordion-body">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores aliquid aliquam nobis, fugiat quod labore placeat quae deserunt optio omnis accusamus, eligendi rem ipsa quaerat voluptas maxime laborum nostrum dignissimos!
-                </div>
+    <footer class="container-fluid fixed-bottom footer bg-info-subtle">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="col-12">Mancs Segély|&copy;2026 Minden jog fenntartva</p>
+                <p class="col-12">Elérhetőségeink:Cím:Kisfaludy utca 6,Telefon:06070809 </p>
             </div>
         </div>
-
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#col-3" 
-                aria-expanded="true" aria-controls="col-3">
-                    Szűrés
-                </button>
-            </h2>
-
-            <div id="col-3" class="accordion-collapse collapse" data-bs-parent="#list">
-                <div class="accordion-body">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto vero porro, iusto doloribus soluta nostrum eaque atque voluptatibus neque repudiandae at. Ducimus quisquam ex omnis repudiandae tempore, ad aliquid illo?
-                </div>
-            </div>
-        </div>
-    </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
